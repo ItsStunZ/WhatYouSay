@@ -3,6 +3,9 @@ import { prompts } from './prompts.js';
 const promptElement = document.querySelector('#prompt');
 const getRandomPromptBtnElement = document.querySelector('#get-prompt-btn');
 
+function loadGame() {
+    
+}
 
 function getRandomPrompt() {
     return prompts[Math.floor(Math.random() * prompts.length)];

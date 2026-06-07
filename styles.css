@@ -26,6 +26,22 @@ body {
     color: var(--color-rose);
 }
 
+.start-btn {
+    border: none;
+    padding: 5px 25px;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.281) 5px 5px 5px;
+    background-color: var(--color-rose);
+    color: var(--color-noir);
+
+    transition: .2s;
+}
+.start-btn:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}
+
 .prompt-container {
     display: flex;
     justify-content: center;
